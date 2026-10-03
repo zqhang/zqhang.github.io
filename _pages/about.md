@@ -81,6 +81,18 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e392fb27908eb3f36e16a2cb40116472-Abstract-Conference.html)]
 [[Code](https://github.com/zqhang/FairDD)]
 
+### TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection
+**Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He  
+**arXiv, 2025**
+
+### PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection
+**Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen  
+**arXiv, 2025**
+
+### GPT4EAD: Efficient Large Language Models for Time Series Anomaly Detection on Memory-Constrained Edge Devices
+**Qihang Zhou**, Zijian Jin, Mincheng Wu, Shibo He  
+**IEEE Internet of Things Magazine, 2025**
+
 ### PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection
 **Qihang Zhou**, Jiangtao Yan, Shibo He, Wenchao Meng, Jiming Chen  
 **NeurIPS 2024**  
@@ -98,6 +110,16 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 **IEEE Transactions on Knowledge and Data Engineering, 2024**  
 [[Paper](https://arxiv.org/abs/2312.11549)]
 [[Code](https://github.com/zqhang/MTGFLOW)]
+
+### Detecting Multivariate Time Series Anomalies with Zero Known Label
+**Qihang Zhou**, Jiming Chen, Haoyu Liu, Shibo He, Wenchao Meng  
+**AAAI 2023**
+
+### Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization
+**Qihang Zhou**, Shibo He, Haoyu Liu, Tao Chen, Jiming Chen  
+**IEEE Transactions on Circuits and Systems for Video Technology, 2023**
+
+\* Equal contribution.
 
 # 💻 Open Source
 
