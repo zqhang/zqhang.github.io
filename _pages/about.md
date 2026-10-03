@@ -23,6 +23,9 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 
 # 🔥 News
 
+- *2026*: **TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection** was accepted to **NeurIPS 2026**.  
+  **Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He.
+
 - *2026.07*: **CODiff: One-Step Diffusion Model for Camouflaged Object Detection**, **ICML 2026**.  
   Xiaotong Fu, Qian Liu, **Qihang Zhou**, Wenchao Meng, Qinmin Yang, Shibo He.
 
@@ -31,9 +34,6 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 
 - *2025.12*: **FairDD: Fair Dataset Distillation**, **NeurIPS 2025**.  
   **Qihang Zhou**, ShenHao Fang, Shibo He, Wenchao Meng, Jiming Chen.
-
-- *2025.10*: **TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection**, arXiv.  
-  **Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He.
 
 - *2025.09*: **PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection**, arXiv.  
   **Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen.
@@ -75,23 +75,19 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 
 # 📝 Selected Publications
 
+### TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection
+**Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He  
+**NeurIPS 2026**
+
 ### FairDD: Fair Dataset Distillation
 **Qihang Zhou**, ShenHao Fang, Shibo He, Wenchao Meng, Jiming Chen  
 **NeurIPS 2025**  
 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e392fb27908eb3f36e16a2cb40116472-Abstract-Conference.html)]
 [[Code](https://github.com/zqhang/FairDD)]
 
-### TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection
-**Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He  
-**arXiv, 2025**
-
 ### PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection
 **Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen  
 **arXiv, 2025**
-
-### GPT4EAD: Efficient Large Language Models for Time Series Anomaly Detection on Memory-Constrained Edge Devices
-**Qihang Zhou**, Zijian Jin, Mincheng Wu, Shibo He  
-**IEEE Internet of Things Magazine, 2025**
 
 ### PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection
 **Qihang Zhou**, Jiangtao Yan, Shibo He, Wenchao Meng, Jiming Chen  
