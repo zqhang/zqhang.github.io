@@ -17,14 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am **Qihang Zhou**, a researcher at **Zhejiang University**. My research focuses on **anomaly detection**, **vision-language models**, **3D and multimodal learning**, and **reliable machine learning**.
+Hi! I am **Qihang Zhou**, a researcher at **Zhejiang University**.
 
-I am particularly interested in building learning systems that can recognize anomalies under limited supervision, unseen categories, complex data distributions, and fairness constraints. My recent work covers zero-shot anomaly detection, zero-shot 3D anomaly detection, label-free multivariate time-series anomaly detection, and fair dataset distillation.
+My current research interests are **3D generation**, **video generation**, and **agentic AI**. I am interested in building generative and agentic systems that can understand, create, and interact with complex 3D and dynamic visual environments.
+
+My previous and continuing research includes **anomaly detection**, **vision-language models**, **3D and multimodal learning**, and **reliable machine learning**, including zero-shot anomaly detection, zero-shot 3D anomaly detection, label-free multivariate time-series anomaly detection, and fair dataset distillation.
 
 You can find my full publication list on [Google Scholar](https://scholar.google.com/citations?user=mkGKMDQAAAAJ&hl=en) and my open-source projects on [GitHub](https://github.com/zqhang).
 
 # 🔥 News
 
+- *2026*: My recent research focuses on **3D generation, video generation, and agentic AI**.
 - *2025*: **FairDD: Fair Dataset Distillation** was accepted to **NeurIPS 2025**.
 - *2024*: **PointAD** was accepted to **NeurIPS 2024**.
 - *2024*: **AnomalyCLIP** was accepted to **ICLR 2024**.
