@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am **Qihang Zhou**, currently a researcher at **Tencent Youtu Lab**. I received my Ph.D. degree from **Zhejiang University**, where I conducted my doctoral research at **NESC**, led by **Academician Youxian Sun**, under the supervision of **Prof. Shibo He** and **Prof. Jiming Chen**. My previous research has mainly focused on **data-centric machine learning**, particularly **data quality** through anomaly detection and **data efficiency** through dataset distillation. In addition to these directions, my current research interests have expanded to **3D generation** and **video generation**.
+Hi! I am **Qihang Zhou**, currently a researcher at **Tencent Youtu Lab**. I received my Ph.D. degree from **Zhejiang University**, where I conducted my doctoral research at **NESC**, led by **Academician Youxian Sun**, under the supervision of **Prof. Shibo He** and **Prof. Jiming Chen**. My previous research has mainly focused on **data-centric machine learning**, particularly **data quality** through anomaly detection and **data efficiency** through dataset distillation. In addition to these directions, my current research interests have expanded to **3D generation** and **video generation**. I am always happy to discuss research ideas and potential collaborations. **Feel free to contact me.**
 
 You can find my full publication list on [Google Scholar](https://scholar.google.com/citations?user=mkGKMDQAAAAJ&hl=en) and my open-source projects on [GitHub](https://github.com/zqhang).
 
