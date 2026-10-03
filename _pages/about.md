@@ -17,30 +17,59 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am **Qihang Zhou**, a researcher at **Zhejiang University**, with current research interests in **3D generation**, **video generation**, and **agentic AI**. I aim to build generative and agentic systems that can understand, create, and interact with complex 3D and dynamic visual environments, while continuing to explore **anomaly detection**, **vision-language models**, **3D and multimodal learning**, and **reliable machine learning**, including zero-shot anomaly detection, zero-shot 3D anomaly detection, label-free multivariate time-series anomaly detection, and fair dataset distillation.
+Hi! I am **Qihang Zhou**, currently a researcher at **Tencent Youtu Lab**. I graduated from **Zhejiang University**. My current research interests are **3D generation**, **video generation**, and **agentic AI**. I aim to build generative and agentic systems that can understand, create, and interact with complex 3D and dynamic visual environments, while continuing to explore **anomaly detection**, **vision-language models**, **3D and multimodal learning**, and **reliable machine learning**.
 
 You can find my full publication list on [Google Scholar](https://scholar.google.com/citations?user=mkGKMDQAAAAJ&hl=en) and my open-source projects on [GitHub](https://github.com/zqhang).
 
 # 🔥 News
 
-- *2026*: **CODiff: One-Step Diffusion Model for Camouflaged Object Detection** was published at **ICML 2026**.
-- *2026*: **Learning Multi-granularity Visual-textual Alignment for Zero-shot Anomaly Detection** appeared at **ICLR 2026**.
-- *2026*: **FIRM-MoE: Fine-Grained Expert Decomposition for Resource-Adaptive MoE Inference** was published at **AAAI 2026**.
-- *2025.10*: Released **TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection**.
-- *2025.09*: Released **PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection**.
-- *2025*: **FairDD: Fair Dataset Distillation** was accepted to **NeurIPS 2025**.
-- *2025*: **GPT4EAD: Efficient Large Language Models for Time Series Anomaly Detection on Memory-Constrained Edge Devices** was published in **IEEE Internet of Things Magazine**.
-- *2024*: **PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection** was accepted to **NeurIPS 2024**.
-- *2024*: **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection** was accepted to **ICLR 2024**.
-- *2024*: **Label-Free Multivariate Time Series Anomaly Detection** was published in **IEEE Transactions on Knowledge and Data Engineering**.
-- *2024*: **Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection** was published at **IJCAI 2024**.
-- *2024*: **MoEAD: A Parameter-Efficient Model for Multi-class Anomaly Detection** was published in **Lecture Notes in Computer Science**.
-- *2024*: **Distributed Boosting: An Enhancing Method on Dataset Distillation** was published as a conference paper.
-- *2023*: **Detecting Multivariate Time Series Anomalies with Zero Known Label** was published at **AAAI 2023**.
-- *2022*: **Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization** was published in **IEEE TCSVT**.
-- *2022*: Released **MTGFlow: Unsupervised Multivariate Time Series Anomaly Detection via Dynamic Graph and Entity-aware Normalizing Flow**.
-- *2022*: **AASPMP: Design and Implementation of Production Management Platform Based on AAS** was published as a conference paper.
-- *2021*: **A Unified Asset Management Architecture Based on OPC UA** was published as a conference paper.
+- *2026.07*: **CODiff: One-Step Diffusion Model for Camouflaged Object Detection**, **ICML 2026**.  
+  Xiaotong Fu, Qian Liu, **Qihang Zhou**, Wenchao Meng, Qinmin Yang, Shibo He.
+
+- *2026.03*: **FIRM-MoE: Fine-Grained Expert Decomposition for Resource-Adaptive MoE Inference**, **AAAI 2026**.  
+  Keyu Chen, **Qihang Zhou**, Bin Qian, Zhenyu Wen, Wenchao Meng, Shibo He.
+
+- *2025.12*: **FairDD: Fair Dataset Distillation**, **NeurIPS 2025**.  
+  **Qihang Zhou**, ShenHao Fang, Shibo He, Wenchao Meng, Jiming Chen.
+
+- *2025.10*: **TokenCLIP: Token-wise Prompt Learning for Zero-shot Anomaly Detection**, arXiv.  
+  **Qihang Zhou**, Binbin Gao, Guansong Pang, Xin Wang, Jiming Chen, Shibo He.
+
+- *2025.09*: **PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection**, arXiv.  
+  **Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen.
+
+- *2025.09*: **GPT4EAD: Efficient Large Language Models for Time Series Anomaly Detection on Memory-Constrained Edge Devices**, **IEEE Internet of Things Magazine**.  
+  **Qihang Zhou**, Zijian Jin, Mincheng Wu, Shibo He.
+
+- *2024.11*: **MoEAD: A Parameter-Efficient Model for Multi-class Anomaly Detection**, **ECCV 2024**.  
+  Shiyuan Meng, Wenchao Meng, **Qihang Zhou**, Shizhong Li, Weiye Hou, Shibo He.
+
+- *2024.10*: **Distributed Boosting: An Enhancing Method on Dataset Distillation**, **CIKM 2024**.  
+  Xuechao Chen, Wenchao Meng, Peiran Wang, **Qihang Zhou**.
+
+- *2024*: **PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection**, **NeurIPS 2024**.  
+  **Qihang Zhou**, Jiangtao Yan, Shibo He, Wenchao Meng, Jiming Chen.
+
+- *2024.05*: **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**, **ICLR 2024**.  
+  **Qihang Zhou**, Guansong Pang, Yu Tian, Shibo He, Jiming Chen.
+
+- *2024*: **Label-Free Multivariate Time Series Anomaly Detection**, **IEEE Transactions on Knowledge and Data Engineering**.  
+  **Qihang Zhou**, Shibo He, Haoyu Liu, Jiming Chen, Wenchao Meng.
+
+- *2024*: **Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection**, **IJCAI 2024**.  
+  Chen Liu, Shibo He, **Qihang Zhou**, Shizhong Li, Wenchao Meng.
+
+- *2023.06*: **Detecting Multivariate Time Series Anomalies with Zero Known Label**, **AAAI 2023**.  
+  **Qihang Zhou**, Jiming Chen, Haoyu Liu, Shibo He, Wenchao Meng.
+
+- *2023*: **Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization**, **IEEE Transactions on Circuits and Systems for Video Technology**.  
+  **Qihang Zhou**, Shibo He, Haoyu Liu, Tao Chen, Jiming Chen.
+
+- *2022*: **AASPMP: Design and Implementation of Production Management Platform Based on AAS**, **IEEE INDIN 2022**.  
+  **Qihang Zhou**, Yihao Wu, Chaojie Gu, Wenchao Meng, Shibo He, Zhiguo Shi.
+
+- *2021.10*: **A Unified Asset Management Architecture Based on OPC UA**, **China Automation Congress 2021**.  
+  **Qihang Zhou**, Yihao Wu, Shibo He, Zhiguo Shi, Jiming Chen.
 
 # 📝 Selected Publications
 
