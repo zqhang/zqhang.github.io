@@ -51,7 +51,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
   **Qihang Zhou**, Jiangtao Yan, Shibo He, Wenchao Meng, Jiming Chen.
 
 - *2024.05*: **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**, **ICLR 2024**.  
-  **Qihang Zhou**, Guansong Pang, Yu Tian, Shibo He, Jiming Chen.
+  **Qihang Zhou***, Guansong Pang*, Yu Tian, Shibo He, Jiming Chen.
 
 - *2024*: **Label-Free Multivariate Time Series Anomaly Detection**, **IEEE Transactions on Knowledge and Data Engineering**.  
   **Qihang Zhou**, Shibo He, Haoyu Liu, Jiming Chen, Wenchao Meng.
@@ -71,7 +71,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2021.10*: **A Unified Asset Management Architecture Based on OPC UA**, **China Automation Congress 2021**.  
   **Qihang Zhou**, Yihao Wu, Shibo He, Zhiguo Shi, Jiming Chen.
 
-# 📝 Selected Publications
+\* Equal contribution.\n\n# 📝 Selected Publications
 
 ### FairDD: Fair Dataset Distillation
 **Qihang Zhou**, ShenHao Fang, Shibo He, Wenchao Meng, Jiming Chen  
