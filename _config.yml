@@ -1,6 +1,6 @@
 # Site Settings
 title                    : "Qihang Zhou"
-description              : "Academic homepage of Qihang Zhou. Research on anomaly detection, vision-language models, multimodal learning, and reliable machine learning."
+description              : "Academic homepage of Qihang Zhou. Research on 3D generation, video generation, agentic AI, anomaly detection, and multimodal learning."
 repository               : "zqhang/zqhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -16,7 +16,7 @@ baidu_site_verification  :
 author:
   name             : "Qihang Zhou"
   avatar           : "https://github.com/zqhang.png"
-  bio              : "Researcher at Zhejiang University"
+  bio              : "3D Generation · Video Generation · Agentic AI"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   pubmed           :
