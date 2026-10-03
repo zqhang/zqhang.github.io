@@ -16,9 +16,9 @@ baidu_site_verification  :
 author:
   name             : "Qihang Zhou"
   avatar           : "https://github.com/zqhang.png"
-  bio              : "3D Generation · Video Generation · Agentic AI"
-  location         : "Hangzhou, China"
-  employer         : "Zhejiang University"
+  bio              : "Researcher at Tencent Youtu Lab"
+  location         :
+  employer         : "Tencent Youtu Lab"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mkGKMDQAAAAJ&hl=en"
   email            : "zqhang@zju.edu.cn"
@@ -51,7 +51,6 @@ author:
   youtube          :
   wikipedia        :
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -89,7 +88,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
