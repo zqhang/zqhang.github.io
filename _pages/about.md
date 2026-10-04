@@ -116,7 +116,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 # 🧑‍⚖️ Academic Service
 
 - **Journal Reviewer:** IJCV, TKDE, TNNLS, TMM, PR, TCSVT, etc.
-- **Conference Reviewer:** NeurIPS, ICML, ICLR, AAAI, etc.
+- **Conference Reviewer:** NeurIPS, ICML, ICLR, AAAI, CVPR, ECCV, etc.
 
 # 🔗 Links
 
