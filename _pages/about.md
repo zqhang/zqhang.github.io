@@ -113,6 +113,11 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 
 \* Equal contribution.
 
+# 🧑‍⚖️ Academic Service
+
+- **Journal Reviewer:** IJCV, TKDE, TNNLS, TMM, PR, TCSVT, etc.
+- **Conference Reviewer:** NeurIPS, ICML, ICLR, AAAI, etc.
+
 # 🔗 Links
 
 - [Google Scholar](https://scholar.google.com/citations?user=mkGKMDQAAAAJ&hl=en)
