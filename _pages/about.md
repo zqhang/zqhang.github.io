@@ -104,6 +104,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 ### Detecting Multivariate Time Series Anomalies with Zero Known Label
 **Qihang Zhou**, Jiming Chen, Haoyu Liu, Shibo He, Wenchao Meng  
 **AAAI 2023**  
+[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25623)]
 [[Code](https://github.com/zqhang/MTGFLOW)]
 
 ### Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization
