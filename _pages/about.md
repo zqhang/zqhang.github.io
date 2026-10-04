@@ -45,7 +45,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2024.10*: **Distributed Boosting: An Enhancing Method on Dataset Distillation**, **CIKM 2024**.  
   Xuechao Chen, Wenchao Meng, Peiran Wang, **Qihang Zhou**.
 
-- *2024*: **PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection**, **NeurIPS 2024**.  
+- *2024.12*: **PointAD: Comprehending 3D Anomalies from Points and Pixels for Zero-shot 3D Anomaly Detection**, **NeurIPS 2024**.  
   **Qihang Zhou**, Jiangtao Yan, Shibo He, Wenchao Meng, Jiming Chen.
 
 - *2024.05*: **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**, **ICLR 2024**.  
@@ -60,7 +60,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2023.06*: **Detecting Multivariate Time Series Anomalies with Zero Known Label**, **AAAI 2023**.  
   **Qihang Zhou**, Jiming Chen, Haoyu Liu, Shibo He, Wenchao Meng.
 
-- *2023*: **Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization**, **IEEE Transactions on Circuits and Systems for Video Technology**.  
+- *2023.05*: **Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization**, **IEEE Transactions on Circuits and Systems for Video Technology**.  
   **Qihang Zhou**, Shibo He, Haoyu Liu, Tao Chen, Jiming Chen.
 
 
