@@ -51,10 +51,10 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2024.05*: **AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection**, **ICLR 2024**.  
   **Qihang Zhou**\*, Guansong Pang\*, Yu Tian, Shibo He, Jiming Chen.
 
-- *2024*: **Label-Free Multivariate Time Series Anomaly Detection**, **IEEE Transactions on Knowledge and Data Engineering**.  
+- *2024.07*: **Label-Free Multivariate Time Series Anomaly Detection**, **IEEE Transactions on Knowledge and Data Engineering**.  
   **Qihang Zhou**, Shibo He, Haoyu Liu, Jiming Chen, Wenchao Meng.
 
-- *2024*: **Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection**, **IJCAI 2024**.  
+- *2024.08*: **Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection**, **IJCAI 2024**.  
   Chen Liu, Shibo He, **Qihang Zhou**, Shizhong Li, Wenchao Meng.
 
 - *2023.06*: **Detecting Multivariate Time Series Anomalies with Zero Known Label**, **AAAI 2023**.  
