@@ -33,7 +33,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
   Keyu Chen, **Qihang Zhou**, Bin Qian, Zhenyu Wen, Wenchao Meng, Shibo He.
 
 - *2025.12*: **FairDD: Fair Dataset Distillation**, **NeurIPS 2025**.  
-  **Qihang Zhou**, ShenHao Fang, Shibo He, Wenchao Meng, Jiming Chen.
+  **Qihang Zhou**\*, ShenHao Fang\*, Shibo He, Wenchao Meng, Jiming Chen.
 
 - *2025.09*: **PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection**, arXiv.  
   **Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen.
@@ -65,11 +65,7 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2023*: **Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization**, **IEEE Transactions on Circuits and Systems for Video Technology**.  
   **Qihang Zhou**, Shibo He, Haoyu Liu, Tao Chen, Jiming Chen.
 
-- *2022*: **AASPMP: Design and Implementation of Production Management Platform Based on AAS**, **IEEE INDIN 2022**.  
-  **Qihang Zhou**, Yihao Wu, Chaojie Gu, Wenchao Meng, Shibo He, Zhiguo Shi.
 
-- *2021.10*: **A Unified Asset Management Architecture Based on OPC UA**, **China Automation Congress 2021**.  
-  **Qihang Zhou**, Yihao Wu, Shibo He, Zhiguo Shi, Jiming Chen.
 
 \* Equal contribution.
 
