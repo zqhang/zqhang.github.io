@@ -105,20 +105,14 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 
 ### Detecting Multivariate Time Series Anomalies with Zero Known Label
 **Qihang Zhou**, Jiming Chen, Haoyu Liu, Shibo He, Wenchao Meng  
-**AAAI 2023**
+**AAAI 2023**  
+[[Code](https://github.com/zqhang/MTGFLOW)]
 
 ### Pull & Push: Leveraging Differential Knowledge Distillation for Efficient Unsupervised Anomaly Detection and Localization
 **Qihang Zhou**, Shibo He, Haoyu Liu, Tao Chen, Jiming Chen  
 **IEEE Transactions on Circuits and Systems for Video Technology, 2023**
 
 \* Equal contribution.
-
-# 💻 Open Source
-
-- [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP) — zero-shot anomaly detection with object-agnostic prompt learning.
-- [PointAD](https://github.com/zqhang/PointAD) — zero-shot 3D anomaly detection from points and pixels.
-- [MTGFLOW](https://github.com/zqhang/MTGFLOW) — label-free multivariate time-series anomaly detection.
-- [FairDD](https://github.com/zqhang/FairDD) — fair dataset distillation.
 
 # 🔗 Links
 
