@@ -38,8 +38,6 @@ You can find my full publication list on [Google Scholar](https://scholar.google
 - *2025.09*: **PointAD+: Learning Hierarchical Representations for Zero-shot 3D Anomaly Detection**, arXiv.  
   **Qihang Zhou**, Shibo He, Jiangtao Yan, Wenchao Meng, Jiming Chen.
 
-- *2025.09*: **GPT4EAD: Efficient Large Language Models for Time Series Anomaly Detection on Memory-Constrained Edge Devices**, **IEEE Internet of Things Magazine**.  
-  **Qihang Zhou**, Zijian Jin, Mincheng Wu, Shibo He.
 
 - *2024.11*: **MoEAD: A Parameter-Efficient Model for Multi-class Anomaly Detection**, **ECCV 2024**.  
   Shiyuan Meng, Wenchao Meng, **Qihang Zhou**, Shizhong Li, Weiye Hou, Shibo He.
