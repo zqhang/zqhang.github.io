@@ -10,7 +10,7 @@ window.CINEREF_CONFIG = {
     { name: 'Junwei Zhu', url: '', superscript: '1' },
     { name: 'Chengjie Wang', url: '', superscript: '1' }
   ],
-  // Add the verified name of affiliation 1 when available.
-  affiliations: [],
+  // Affiliation 1 shared by all listed authors.
+  affiliations: ['¹ Tencent'],
   authorNote: ''
 };

@@ -152,3 +152,8 @@ footer { border-top:1px solid #edf1f7; background:#fff; padding:31px 16px 38px; 
   .authors { font-size:14px; }
   .authors-row { column-gap:9px; }
 }
+
+/* No captions under demo videos; keep equal card padding on all sides. */
+.demo-card{padding:12px}
+@media(max-width:900px){.demo-card{padding:9px}}
+@media(max-width:690px){.demo-card{padding:8px}}
