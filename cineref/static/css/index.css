@@ -157,3 +157,7 @@ footer { border-top:1px solid #edf1f7; background:#fff; padding:31px 16px 38px; 
 .demo-card{padding:12px}
 @media(max-width:900px){.demo-card{padding:9px}}
 @media(max-width:690px){.demo-card{padding:8px}}
+
+/* Demo gallery without section headings or captions: move first video closer to resource links. */
+.demos{padding-top:32px}
+@media(max-width:690px){.demos{padding-top:20px}}
