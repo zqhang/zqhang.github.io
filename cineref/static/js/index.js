@@ -57,6 +57,51 @@
   }
   // Play one clip at a time so audio from different demos never overlaps.
   const videos = [...document.querySelectorAll('video')];
+
+  // The unmodified 1344x768 MP4s are stored as short base64 text chunks so
+  // the GitHub connector can upload them without lowering their resolution.
+  // Assemble them on demand to produce exactly the original MP4 bytes.
+  const videoParts = {2:5, 9:7, 36:5, 39:6, 40:4};
+  const assembledUrls = [];
+  const pendingVideos = new WeakMap();
+  const loadVideo = (video) => {
+    if (pendingVideos.has(video)) return pendingVideos.get(video);
+    const source=video.querySelector('source[data-chunked-video]');
+    if(!source) return Promise.resolve();
+    const id=source.dataset.chunkedVideo;
+    const n=videoParts[id];
+    if(!n) return Promise.resolve();
+    video.setAttribute('aria-busy','true');
+    const promise=(async()=>{
+      const pieces=await Promise.all(Array.from({length:n},async(_,i)=>{
+        const response=await fetch('static/video-chunks/'+id+'-'+i+'.b64');
+        if(!response.ok) throw new Error('Missing video part '+id+'-'+i);
+        const encoded=(await response.text()).replace(/\s+/g,'');
+        const binary=atob(encoded);
+        const chunk=new Uint8Array(binary.length);
+        for(let k=0;k<binary.length;k++)chunk[k]=binary.charCodeAt(k);
+        return chunk;
+      }));
+      const url=URL.createObjectURL(new Blob(pieces,{type:'video/mp4'}));
+      assembledUrls.push(url);
+      source.src=url;
+      video.load();
+      video.removeAttribute('aria-busy');
+    })().catch(err=>{
+      video.removeAttribute('aria-busy');
+      console.error('Unable to load original CineRef video',id,err);
+      video.setAttribute('aria-label','Video temporarily unavailable: '+id);
+    });
+    pendingVideos.set(video,promise);
+    return promise;
+  };
+  const observer=('IntersectionObserver' in window)
+    ? new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){loadVideo(entry.target);observer.unobserve(entry.target)}
+      }),{rootMargin:'700px'}) : null;
+  for(const video of videos){if(observer)observer.observe(video);else loadVideo(video);}
+  window.addEventListener('pagehide',()=>assembledUrls.forEach(url=>URL.revokeObjectURL(url)),{once:true});
+
   // A single reference-audio player ensures no two timbres ever overlap.
   const referenceAudio = document.getElementById('reference-voice-player');
   const voiceButtons = [...document.querySelectorAll('[data-reference-audio]')];

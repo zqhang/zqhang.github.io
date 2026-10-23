@@ -25,3 +25,7 @@ Playing a reference audio pauses any playing video. Playing a video stops the re
 Run `python3 -m http.server 8000` from this directory and open `http://localhost:8000`.
 
 Edit `static/js/config.js` for the four external links and real author names / personal links. They intentionally remain unfilled. The template is a static site suitable for GitHub Pages. Publishing full media requires publicly hosting all the audio and video assets.
+
+
+## GitHub media layout
+Original 1344×768 videos are reconstructed by `static/js/index.js` from `static/video-chunks/<id>-<part>.b64`. The chunks encode the full MP4 bytes with no additional re-encoding. Reference audio remains in individual `static/audio/*.wav` files. There is no manuscript PDF in this repository's CineRef page.
