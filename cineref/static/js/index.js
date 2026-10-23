@@ -72,7 +72,7 @@
   // The unmodified 1344x768 MP4s are stored as short base64 text chunks so
   // the GitHub connector can upload them without lowering their resolution.
   // Assemble them on demand to produce exactly the original MP4 bytes.
-  const videoParts = {36:5, 39:6, 40:4};
+  const videoParts = {36:5, 39:6, 40:4, 9:7};
   const assembledUrls = [];
   const pendingVideos = new WeakMap();
   const loadVideo = (video) => {
