@@ -1,14 +1,16 @@
-/* Set official project links as they become available. Empty strings keep the buttons visible. */
+/* CineRef public author list and project resource links. */
 window.CINEREF_CONFIG = {
-  links: {
-    paper: '',
-    code: '',
-    arxiv: '',
-    dataset: ''
-  },
-  // Authors are intentionally not inferred from the anonymous draft.
-  // Example: { name: 'First Author', url: 'https://example.org', superscript: '1,*' }
-  authors: [],
-  affiliations: [], // e.g. ['1 University A', '2 Lab B']
+  links: { paper: '', code: '', arxiv: '', dataset: '' },
+  authors: [
+    { name: 'Qihang Zhou', url: '', superscript: '1' },
+    { name: 'Chuming Lin', url: '', superscript: '1' },
+    { name: 'Bin-Bin Gao', url: '', superscript: '1' },
+    { name: 'Feifan Xu', url: '', superscript: '1' },
+    { name: 'Xu Chen', url: '', superscript: '1' },
+    { name: 'Junwei Zhu', url: '', superscript: '1' },
+    { name: 'Chengjie Wang', url: '', superscript: '1' }
+  ],
+  // Add the verified name of affiliation 1 when available.
+  affiliations: [],
   authorNote: ''
 };

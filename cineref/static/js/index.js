@@ -5,22 +5,33 @@
   const authorNote = document.getElementById('author-note');
   if (Array.isArray(cfg.authors) && cfg.authors.length) {
     authorsEl.hidden = false;
-    for (const author of cfg.authors) {
-      const block = document.createElement('span');
-      const label = author.url ? document.createElement('a') : document.createElement('span');
-      label.textContent = author.name;
-      if (author.url) {
-        label.href = author.url;
-        label.rel = 'noopener noreferrer';
-        label.target = '_blank';
+    const allAuthors = cfg.authors;
+    const midpoint = Math.ceil(allAuthors.length / 2);
+    const rows = allAuthors.length > 4
+      ? [allAuthors.slice(0, midpoint), allAuthors.slice(midpoint)]
+      : [allAuthors];
+    for (const group of rows) {
+      const row = document.createElement('div');
+      row.className = 'authors-row';
+      for (const author of group) {
+        const block = document.createElement('span');
+        block.className = 'author-block';
+        const label = author.url ? document.createElement('a') : document.createElement('span');
+        label.textContent = author.name;
+        if (author.url) {
+          label.href = author.url;
+          label.rel = 'noopener noreferrer';
+          label.target = '_blank';
+        }
+        block.appendChild(label);
+        if (author.superscript) {
+          const sup = document.createElement('sup');
+          sup.textContent = author.superscript;
+          block.appendChild(sup);
+        }
+        row.appendChild(block);
       }
-      block.appendChild(label);
-      if (author.superscript) {
-        const sup = document.createElement('sup');
-        sup.textContent = author.superscript;
-        block.appendChild(sup);
-      }
-      authorsEl.appendChild(block);
+      authorsEl.appendChild(row);
     }
   }
   if (Array.isArray(cfg.affiliations) && cfg.affiliations.length) {
