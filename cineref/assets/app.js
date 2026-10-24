@@ -4,7 +4,6 @@
 // Video bytes, speed, crop, and original audio tracks are never modified.
 const media = [...document.querySelectorAll("audio, video")];
 const cards = [...document.querySelectorAll(".generation-card")];
-const filters = [...document.querySelectorAll("[data-filter]")];
 const status = document.getElementById("media-status");
 let activeGroup = null;
 let generation = 0;
@@ -143,23 +142,6 @@ cards.forEach(card => {
     if (activeGroup && activeGroup.card === card) applyGroupSound(activeGroup);
   });
 });
-
-document.getElementById("pause-all").addEventListener("click", () => {
-  pauseAll();
-  status.textContent = "All videos and reference voices paused.";
-});
-
-filters.forEach(button => button.addEventListener("click", () => {
-  pauseAll();
-  const selected = button.dataset.filter;
-  filters.forEach(item => {
-    const active = item === button;
-    item.classList.toggle("active", active);
-    item.setAttribute("aria-pressed", String(active));
-  });
-  cards.forEach(card => { card.hidden = selected !== "all" && card.dataset.sample !== selected; });
-  status.textContent = selected === "all" ? "Showing all 4 examples." : `Showing example ${selected}.`;
-}));
 
 // Paper links are intentionally empty placeholders: never navigate anywhere.
 document.querySelectorAll("[data-paper-url]").forEach(element => {
