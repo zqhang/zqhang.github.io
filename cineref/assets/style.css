@@ -259,8 +259,8 @@ footer > a:last-of-type { font-size: 10px; color: #92849e; }
 .input-caption p { font-size: 11px; color: #9b8ca8; }
 .shared-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 30px; max-width: 810px; }
 .shared-reference { display: grid; grid-template-columns: 92px minmax(0,1fr); align-items: center; gap: 15px; min-width: 0; }
-.shared-image { display: block; border: 1px solid #e8e3ee; border-radius: 7px; background: #f3f1f6; overflow: hidden; }
-.shared-image img { width: 100%; height: auto; border-radius: 6px; }
+.shared-image { display: block; aspect-ratio: 1; border: 1px solid #e8e3ee; border-radius: 7px; background: #f3f1f6; overflow: hidden; }
+.shared-image img { width: 100%; height: 100%; object-fit: contain; border-radius: 6px; }
 .shared-voice { min-width: 0; }
 .shared-voice .reference-name { margin-top: 0; }
 .shared-voice audio { height: 33px; }
@@ -292,7 +292,7 @@ footer > a:last-of-type { font-size: 10px; color: #92849e; }
   .shared-inputs { grid-template-columns: 112px minmax(0,1fr); gap: 15px; }
   .shared-pair { gap: 20px; }
   .shared-reference { grid-template-columns: 73px minmax(0,1fr); gap: 10px; }
-  .shared-image img { height: auto; }
+  .shared-image img { height: 100%; }
   .comparison-grid { gap: 10px; padding: 0 18px; }
   .output-heading { align-items: flex-start; flex-direction: column; gap: 4px; min-height: 65px; padding: 10px 11px; }
   .ours-output .output-badge { padding: 0; background: transparent; }
@@ -302,14 +302,14 @@ footer > a:last-of-type { font-size: 10px; color: #92849e; }
   .shared-inputs { display: block; padding: 20px; }
   .input-caption { display: flex; justify-content: space-between; margin-bottom: 12px; }
   .shared-reference { grid-template-columns: 84px minmax(0,1fr); }
-  .shared-image img { height: auto; }
+  .shared-image img { height: 100%; }
   .compare-toolbar { flex-wrap: wrap; gap: 12px; }
 }
 @media (max-width: 620px) {
   .shared-inputs { padding: 18px; }
   .shared-pair { gap: 14px; }
   .shared-reference { display: block; }
-  .shared-image img { height: auto; }
+  .shared-image img { height: 100%; }
   .shared-voice .reference-name { margin-top: 10px; }
   .compare-toolbar { padding: 19px 17px 16px; }
   .compare-actions { gap: 6px; }
@@ -329,7 +329,7 @@ footer > a:last-of-type { font-size: 10px; color: #92849e; }
 @media (max-width: 360px) {
   .shared-inputs { padding: 14px; }
   .shared-pair { gap: 10px; }
-  .shared-image img { height: auto; }
+  .shared-image img { height: 100%; }
   .comparison-grid { padding: 0 14px; }
 }
 @media (prefers-reduced-motion: reduce) {
