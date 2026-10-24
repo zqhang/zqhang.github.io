@@ -160,3 +160,8 @@ filters.forEach(button => button.addEventListener("click", () => {
   cards.forEach(card => { card.hidden = selected !== "all" && card.dataset.sample !== selected; });
   status.textContent = selected === "all" ? "Showing all 4 examples." : `Showing example ${selected}.`;
 }));
+
+// Paper links are intentionally empty placeholders: never navigate anywhere.
+document.querySelectorAll("[data-paper-url]").forEach(element => {
+  element.addEventListener("click", event => event.preventDefault());
+});
