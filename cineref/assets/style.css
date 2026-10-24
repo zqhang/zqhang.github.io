@@ -46,6 +46,8 @@ nav a { font-size: 13px; font-weight: 550; color: #616777; }
 .nav-paper-inert:hover { text-decoration: none; }
 .nav-paper-pending { font-size: 9px; font-weight: 400; color: #9a8ca6; }
 .button.primary.paper-placeholder:hover { background: var(--purple); }
+.button.secondary.paper-placeholder:hover { background: #fff; }
+.button-detail.hf-detail { border-left-color: #dedfe6; color: #9a8ca6; }
 @media (max-width: 620px) {
   .author-block { margin-top: 24px; }
   .author-row { column-gap: 14px; row-gap: 5px; }

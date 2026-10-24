@@ -145,6 +145,6 @@ cards.forEach(card => {
 });
 
 // Paper links are intentionally empty placeholders: never navigate anywhere.
-document.querySelectorAll("[data-paper-url]").forEach(element => {
+document.querySelectorAll("[data-paper-url], [data-hf-url]").forEach(element => {
   element.addEventListener("click", event => event.preventDefault());
 });
