@@ -5,9 +5,10 @@
 const media = [...document.querySelectorAll("audio, video")];
 const cards = [...document.querySelectorAll(".generation-card")];
 const status = document.getElementById("media-status");
+const setStatus = text => { if (status) status.textContent = text; };
 let activeGroup = null;
 let generation = 0;
-const groupText = (card, text) => { card.querySelector(".group-status").textContent = text; };
+const groupText = (card, text) => { const el = card.querySelector(".group-status"); if (el) el.textContent = text; };
 const videosIn = card => [...card.querySelectorAll("video")];
 
 function endGroup(message = "Comparison paused.", except = null) {
@@ -78,11 +79,11 @@ async function playTogether(card) {
     card.querySelector(".compare-play").disabled = false;
     const shortest = Math.min(...videos.map(video => video.duration));
     groupText(card, `Playing all three from 0 s; stopping at the shortest clip (${shortest.toFixed(2)} s). Starts are approximate, not frame-locked.`);
-    status.textContent = `Comparing example ${card.dataset.sample}. Only the selected output is audible.`;
+    setStatus(`Comparing example ${card.dataset.sample}. Only the selected output is audible.`);
   } catch (error) {
     if (activeGroup === group) {
       endGroup("Unable to start all three videos. Try again, or use their individual play controls.");
-      status.textContent = "Comparison could not start. Original files remain available through the download links.";
+      setStatus("Comparison could not start. Original files remain available through the download links.");
     }
   }
 }
@@ -93,7 +94,7 @@ media.forEach(player => {
   player.addEventListener("play", () => {
     if (!(activeGroup && activeGroup.card === card && player.tagName === "VIDEO")) {
       pauseAll(player);
-      status.textContent = `Now playing: ${label}.`;
+      setStatus(`Now playing: ${label}.`);
     }
     card.classList.add("is-playing");
   });
@@ -117,7 +118,7 @@ media.forEach(player => {
   });
   const onError = () => {
     if (activeGroup && activeGroup.card === card) endGroup("A video could not be loaded. Try its download link.");
-    status.textContent = `${label} could not be loaded. Open the original file using its download link.`;
+    setStatus(`${label} could not be loaded. Open the original file using its download link.`);
   };
   player.addEventListener("error", onError);
   player.querySelector("source").addEventListener("error", onError);
